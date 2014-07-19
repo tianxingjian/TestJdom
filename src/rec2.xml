@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<ufinterface account="develop" billtype="rec" filename="" groupcode="H" orgcode="0101" isexchange="Y" replace="Y" roottag="" sender="arap">
+    <bill id="">
+        <billhead>
+            <!--应收财务组织,最大长度为20,类型为:String-->
+            <pk_org>北京联嘉云贸易有限公司</pk_org>
+            <!--单据日期,最大长度为19,类型为:UFDate-->
+            <billdate>2014-05-02 08:58:10</billdate>
+          	<!-- 往来对象 -->
+            <objtype>客户</objtype>
+            <customer>其他</customer>
+            <pk_psndoc></pk_psndoc>
+            <pk_deptid>云购物卡阿米巴</pk_deptid>
+            <pk_currtype>人民币</pk_currtype>
+            <pk_tradetype>D0</pk_tradetype>
+            <pk_tradetypeid>应收单</pk_tradetypeid>
+            <pk_pcorg>云购物卡阿米巴</pk_pcorg>
+            <!--单据所属系统,最大长度为0,类型为:Integer-->
+            <syscode>0</syscode>
+            <!--单据来源系统,最大长度为0,类型为:Integer-->
+            <src_syscode>0</src_syscode>
+            <!--单据状态,最大长度为0,类型为:Integer-->
+            <billstatus>0</billstatus>
+            <bodys>
+                <item>
+                	<scomment></scomment>
+                	<def2>B2C</def2>
+                	<pk_deptid>部门</pk_deptid>
+                	<def3>深圳中行BST支付</def3>
+                	<pk_psndoc></pk_psndoc>
+                	<def4>云购物收入</def4>
+                	<customer>用友</customer>
+                	<material>钢材</material>
+                	<objtype>客户</objtype>
+                	<pk_currtype>人民币</pk_currtype>
+                	<rate>1.00</rate>
+                	<taxcodeid>CN06</taxcodeid>
+                	<taxrate>3.00</taxrate>
+                	<def1>营业税发票</def1>
+                	<buysellflag>国内销售</buysellflag>
+                    <!--摘要,最大长度为400,类型为:String-->
+                    <comment>白菜kkkk</comment>
+                </item>
+            </bodys>
+        </billhead>
+    </bill>
+</ufinterface>
